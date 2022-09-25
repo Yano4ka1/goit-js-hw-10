@@ -1,8 +1,8 @@
 {
   "name": "parcel-project-template",
   "version": "2.0.0",
-  "description": "",
-  "homepage": "https://yano4ka1.github.io/goit-js-hw-09/",
+  "description": "**Read in other languages: [Русский](README.md), [Polski](README.pl.md).**",
+  "homepage": "https://yano4ka1.github.io/goit-js-hw-10",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "flatpickr": "^4.6.13",
+    "lodash.debounce": "^4.0.8",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.5"
   },
@@ -28,5 +29,6 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "main": "index.js"
 }
